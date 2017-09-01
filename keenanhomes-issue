@@ -1,6 +1,6 @@
-issue: navbar was open even in mobile
+ISSUE: navbar was open even in mobile
 
-solution: a js script tag in the footer.php
+SOLUTION: a js script tag in the footer.php
 
 <script>
 	(function() {
