@@ -1,0 +1,13 @@
+issue: navbar was open even in mobile
+
+solution: a js script tag in the footer.php
+
+<script>
+	(function() {
+		var width = window.innerWidth;
+		if(width <= 768) {
+ 			var nav = document.getElementsByClassName("navigation");
+			nav[0].classList.add('collapse');
+		}
+    })();
+</script>
